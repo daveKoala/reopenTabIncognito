@@ -1,0 +1,26 @@
+{
+  "name": "Reopen with incog",
+  "description": "Reopen the current tab in an incog tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/incognito16.png",
+      "32": "/images/incognito32.png",
+      "48": "/images/incognito48.png",
+      "128": "/images/incognito128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/incognito16.png",
+    "32": "/images/incognito32.png",
+    "48": "/images/incognito48.png",
+    "128": "/images/incognito128.png"
+  },
+  "options_page": "options.html"
+}
